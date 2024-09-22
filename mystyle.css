@@ -1,0 +1,89 @@
+body {
+  background-image: url("new map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+@media only screen and (max-width: 550px) {
+  .main_page {
+    margin: 5px auto auto auto !important;
+    width: 98% !important;
+    padding: 20px !important; /* Giảm padding nếu cần */
+  }
+}
+
+.main_page {
+  color: white;
+  padding: 30px;
+  margin: 70px auto auto auto;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(1.8px);
+  -webkit-backdrop-filter: blur(1.8px);
+  border: 1px solid rgba(255, 68, 0, 0.5);
+}
+
+.collapsible {
+  background: none;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.content {
+  font-size: 17px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.main_font {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  text-shadow: 0 0 7px #70001e, 0 0 10px #ff0000, 0 0 21px #950000,
+    0 0 42px rgb(255, 0, 0), 0 0 82px rgb(255, 41, 41),
+    0 0 92px rgb(255, 79, 79), 0 0 102px rgb(255, 64, 64),
+    0 0 151px rgb(255, 0, 0);
+}
+
+.active,
+.collapsible {
+  font-weight: bolder;
+  font-size: 22px;
+  color: #fff;
+  text-shadow: 0 0 7px #70001e, 0 0 10px #ff0000, 0 0 21px #950000,
+    0 0 42px rgb(255, 0, 0), 0 0 82px rgb(255, 41, 41),
+    0 0 92px rgb(255, 79, 79), 0 0 102px rgb(255, 64, 64),
+    0 0 151px rgb(255, 0, 0);
+}
+
+.bold_header {
+  color: #ff4747;
+  font-weight: bold;
+}
+
+.inner_content {
+  margin-left: 25px;
+}
