@@ -1,0 +1,90 @@
+body {
+  background-image: url("new map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 550px) {
+  .main_page {
+    margin: 5px auto auto auto !important;
+    width: 98% !important;
+    padding: 20px !important;
+    /* Giảm padding nếu cần */
+  }
+}
+
+.main_page {
+  color: white;
+  padding: 30px;
+  margin: 70px auto auto auto;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(103, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border: 1px solid rgba(255, 68, 0, 0.5);
+}
+
+.collapsible {
+  color: #ff3421 !important;
+  background: none;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+.content {
+  font-size: 17px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+.main_font {
+  color: #ff3421 !important;
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+}
+
+.active,
+.collapsible {
+  font-weight: bolder;
+  font-size: 22px;
+  color: #fff;
+}
+
+.bold_header {
+  color: #ff3421;
+  font-weight: bold;
+}
+
+b {
+  color: #ff3421;
+  font-style: italic;
+  font-weight: lighter !important;
+}
+.inner_content {
+  margin-left: 25px;
+}
