@@ -80,7 +80,7 @@ body {
   font-weight: bold;
 }
 
-b {
+.leader{
   color: #ff3421;
   font-style: italic;
   font-weight: lighter !important;
